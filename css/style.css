@@ -1252,16 +1252,16 @@ html{
 .sns_wrap{
   position: fixed;
   bottom: 45%; right: 5%;
-  z-index: 100;
+  z-index: 1000;
 }
 .sns_wrap > a{
   position: fixed;
   bottom: 41%; right: 5%;
-  z-index: 100;
+  z-index: 1000;
   color: white;
   
   border-radius: 100%;
-  background-color: var(--main-color);
+  background-color: #252c67;
   width: 70px; height: 70px;
   display: flex;
   flex-direction: column;
@@ -1305,7 +1305,7 @@ html{
   position: fixed;
   width: 50px; height: 50px;
   bottom: 5%; right: 5%;
-  z-index: 90;
+  z-index: 1000;
 }
 .top_btn:hover .back{
   width: 140%; height: 140%;
@@ -1321,7 +1321,7 @@ html{
   transition: 0.3s;
 }
 .top_btn a{
-  background-color:var(--main-color);
+  background-color: #252c67;
   display: flex;
   justify-content: center;
   align-items: center;
