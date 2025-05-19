@@ -1,0 +1,203 @@
+.sub_main_Visual.login{
+  background: url(../images/sub_page/login/main_img.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.sub_main_Visual.login::after{
+  content: "";
+  position: absolute;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.sub_main_Visual p{
+  position: relative;
+  z-index: 10;
+}
+.sub_main_Visual h1{
+  position: relative;
+  z-index: 10;
+}
+.login_wrap .sub_page_title::after{
+  width: 20%; height: 3px;
+}
+.guide_text_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  border: 1px solid var(--Announcement-color);
+  border-radius: 5px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+}
+.guide_text_box img{
+  width: 110px;
+}
+.guide_text_box .text_wrap p{
+  position: relative;
+  margin-bottom: 10px;
+}
+.guide_text_box .text_wrap p::before{
+  content: '-';
+  position: absolute;
+  left: -15px;
+}
+.guide_text_box .text_wrap p span{
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.login_wrap .card_wrap{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+.login_wrap .card_wrap .card{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgba(169, 169, 169, 0.3);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: 0.2s;
+}
+.login_wrap .card_wrap .card:hover{
+  border: 1px solid var(--main-color);
+  background-color: rgba(0, 0, 255, 0.02);
+}
+.login_wrap .card_wrap .card::after{
+  content: '\f054';
+  position: absolute;
+  font-family: "fontawesome";
+  color: var(--Announcement-color);
+  font-size: 1.3rem;
+  right: 30px; top: 50%;
+  transform: translateY(-50%);
+}
+.login_wrap .card_wrap .img{
+  width: 80px; height: 80px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(169, 169, 169, 0.3);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_wrap .card_wrap .img img{
+  width: 60%;
+}
+.login_wrap .card_wrap .text_wrap{
+  text-align: left;
+  width: 70%;
+}
+.login_wrap .card_wrap .text_wrap p:nth-child(2){
+  margin-top: 8px;
+  line-height: 1.3;
+  font-size: 0.8rem;
+}
+
+.login_banner_backGround{
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: none;
+}
+.login_banner{
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px; height: 500px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 2.5rem 1rem;
+  z-index: 2000;
+}
+.login_banner > h2{
+  width: 90%;
+  margin: 0 auto 15px auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.login_banner > h2 > span{
+  font-size: 1.3rem;
+}
+.login_banner > h2 > img{
+  width: 25px;
+}
+.login_banner > p{
+  color: var(--sub-text-color);
+  width: 90%;
+  margin: auto;
+  font-size: 0.9rem;
+}
+.login_banner .conditions{
+  width: 90%; height: 200px;
+  overflow-y: scroll;
+  margin: 1rem auto 1rem auto;
+}
+.login_banner .conditions > li{
+  position: relative;
+  padding-left: 10px;
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+}
+.login_banner .conditions > li::before{
+  content: '';
+  position: absolute;
+  width: 3px; height: 90%;
+  background-color: var(--main-color);
+  left: 0; top: 50%;
+  transform: translateY(-45%);
+}
+.login_banner .conditions > li:first-child{
+   margin-top: 0;
+}
+.login_banner .conditions > ul > li{
+  position: relative;
+  color: var(--sub-text-color);
+  padding-left: 1.5rem;
+  margin-bottom: 5px;
+}
+.login_banner .conditions > ul > li::before{
+  content: '';
+  position: absolute;
+  width: 5px; height: 1px;
+  background-color: var(--sub-text-color);
+  left: 0.9rem;
+  top: 50%;
+}
+
+.login_banner label{
+  display: block;
+  width: 90%;
+  margin: auto;
+  font-size: 0.9rem;
+}
+.login_banner .button_wrap{
+  width: 90%; 
+  margin: 1rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.login_banner .button_wrap button{
+  width: 200px; height: 50px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+.login_banner .button_wrap button:first-child{
+  background-color: var(--main-color);
+  color: white;
+}
+.login_banner .button_wrap button:last-child{
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
