@@ -145,6 +145,7 @@ html{
   text-decoration: underline;
 }
 .top_header .certification{
+  position: relative;
   margin-right: 7px;
 }
 .top_header .language{
@@ -1465,4 +1466,15 @@ html{
   right: 10px; top: 50%;
   transform: translateY(-100%);
   background-size: cover;
+}
+
+.click_mark{
+  position: relative;
+}
+.click_mark::after{
+  content: '\f0a6';
+  font-family: 'fontAwesome';
+  position: absolute;
+  color: red;
+  bottom: -30px; left: 50%;
 }
