@@ -114,5 +114,4 @@
 
 ## 🚀 링크
 
-- [디자인 피그마 링크]  
-(https://www.figma.com/design/38T2PeH5kmMkGmWwSTzjlc/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=yX1XmAIQqvlqjpnX-1)
+- [디자인 피그마 링크](https://www.figma.com/design/38T2PeH5kmMkGmWwSTzjlc/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=yX1XmAIQqvlqjpnX-1)
