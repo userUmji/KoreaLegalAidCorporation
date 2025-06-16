@@ -36,7 +36,7 @@
 
 | 반응형                                                                                                           | 
 | :------------------------------------------------------------------------------------------------------------------------------ |
-| ![Image](https://github.com/user-attachments/assets/252d8817-4a24-491a-b9c9-ea4c59891a0d) |  
+| ![Image](https://github.com/user-attachments/assets/ebb81e5a-95e1-4945-a71e-2c0587573d52) |  
 
 | 가로 너비가 768px 미만일 때는 헤더 안의 내비게이션 메뉴가 사라지고, 햄버거 아이콘이 생성됩니다.
 햄버거 아이콘을 클릭하면 우측에서 화면을 채우는 네비게이션이 나옵니다.
@@ -109,11 +109,10 @@
 | ![Image](https://github.com/user-attachments/assets/2b957f64-4d8f-4d9c-a19f-e7d3ccefdbca) |
 
 | 다양한 로그인 방법을 지원하기에 그에 맞게 로그인 방식들을 하나씩 묶어서 보여주었습니다.  
-| ![Image](https://github.com/user-attachments/assets/b0a80476-c205-4937-b4bd-1dc1f435bac8) |
+![Image](https://github.com/user-attachments/assets/b0a80476-c205-4937-b4bd-1dc1f435bac8)  
 | 로그인을 누르면 개인정보 수집 이용 동의라는 배너가 열립니다.  
 
 ## 🚀 링크
 
-- [기획]()
-- [디자인](https://www.figma.com/design/38T2PeH5kmMkGmWwSTzjlc/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=yX1XmAIQqvlqjpnX-1)
-- [DEMO]()\
+- [디자인 피그마 링크]  
+(https://www.figma.com/design/38T2PeH5kmMkGmWwSTzjlc/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=0-1&t=yX1XmAIQqvlqjpnX-1)
