@@ -13,7 +13,7 @@ let final_Btn;
 // 총 리스트 개수
 if(window.innerWidth < 767){  
   // 모바일일때는 5개씩 보여줌
-  maxViewBtnCount = 9;
+  maxViewBtnCount = 5;
   totalList = document.querySelectorAll(".announcement_list ul li");
 }
 else{
