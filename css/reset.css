@@ -23,6 +23,7 @@ body{
   font-family: 'Pretendard-Regular';
   font-weight: normal;
   color: var(--main-text-color);
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;
