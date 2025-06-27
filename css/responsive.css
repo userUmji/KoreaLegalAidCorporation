@@ -203,7 +203,7 @@
   }
 
   .swiper-slide:nth-child(1) .visual_content .name {
-    left: 32%;
+    left: 28%;
     bottom: 43%;
   }
 
@@ -274,7 +274,7 @@
   }
 
   .swiper-slide:nth-child(4) .visual_content .name {
-    left: 40%;
+    left: 50%;
     bottom: 150px;
   }
 
@@ -296,7 +296,7 @@
   }
 
   .swiper-slide:nth-child(5) .visual_content .name {
-    left: 28%;
+    left: 38%;
     bottom: 150px;
   }
 

@@ -9,6 +9,7 @@ var swiper = new Swiper(".mySwiper01", {
     prevEl: ".swiper-button-prev",
   },
   autoplay: true,
+  speed: 2000,
   slidesPerView : 1,
 });
 // quick swiper-------------------------------
