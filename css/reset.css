@@ -19,6 +19,9 @@
   font-size: 18px;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 body{
   font-family: 'Pretendard-Regular';
   font-weight: normal;
